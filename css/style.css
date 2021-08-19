@@ -1,0 +1,85 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+#dark {
+ color: green;
+}
+#dark:hover {
+ color: rgb(170, 223, 205);
+}
+
+#light {
+ color: rgb(170, 223, 205);
+}
+#light:hover{
+ color: green;
+
+}
+body {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ margin: 0;
+ font-size: 17px;
+ line-height: 1.6;
+ color: rgb(170, 223, 205);
+ font-weight: 100;
+}
+
+#showcase {
+ background-image: url('../img/leaves.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100vh;
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 0 20px;
+}
+
+#showcase  h1 {
+ font-size: 70px;
+}
+
+#showcase p {
+ font-size: 20px;
+}
+
+#showcase a {
+ text-decoration: none;
+ color: rgb(198, 211, 212);
+ border: 1px white solid;
+ padding: 10px;
+ margin: 20px;
+ border-radius: 50px;
+ background: green;
+}
+
+#showcase a:hover {
+ background: rgb(170, 223, 205);
+ color:green ;
+ border-color: green;
+}
+
+#section-1 {
+ background-color: darkgreen ;
+ color: rgb(170, 223, 205);
+ padding: 20px;
+ text-align: center;
+}
+#section-2 {
+ background-color: lightgreen ;
+ color: green;
+ padding: 20px;
+ text-align: center;
+}
+
+footer{
+ text-align: center;
+ background-color: darkgreen;
+ color:white ;
+}
